@@ -11,7 +11,7 @@ public class CicdAppliedToSpringBootJavaAppApplication {
 
 	@GetMapping("/")
 	public String home() {
-		return "Hello World from the CI/CD pipeline";
+		return "Hello there from the CI/CD pipeline!";
 	}
 	
 	public static void main(String[] args) {
